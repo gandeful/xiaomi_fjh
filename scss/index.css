@@ -1,1 +1,82 @@
-null
+html,
+ul,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.banxin {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+li {
+  list-style: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+  clear: both;
+  content: '';
+  visibility: hidden;
+  display: table;
+  *zoom: 1;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  line-height: 40px;
+  background-color: #333;
+}
+
+#header li {
+  float: left;
+}
+
+#header li:nth-child(2n) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#header ul {
+  float: left;
+}
+
+#header a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+#header a:hover {
+  color: white;
+}
+
+#header .right {
+  float: right;
+  position: relative;
+}
+
+#header .incart {
+  position: absolute;
+  top: 40px;
+  line-height: 100px;
+  width: 350px;
+  text-align: center;
+  right: 0;
+  background-color: red;
+  display: none;
+}
+
+#header .shopcart {
+  width: 150px;
+  color: #ccc;
+  text-align: center;
+  margin-right: 0 !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#header .shopcart:hover {
+  color: orangered;
+  background-color: white;
+}

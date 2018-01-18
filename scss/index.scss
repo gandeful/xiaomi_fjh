@@ -1,1 +1,77 @@
-div {}
+html,
+ul,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banxin {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix::after,
+.clearfix::before {
+    clear: both;
+    content: '';
+    visibility: hidden;
+    display: table;
+    *zoom: 1;
+}
+
+#header {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #333;
+    li {
+        float: left;
+        &:nth-child(2n) {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+    ul {
+        float: left;
+    }
+    a {
+        color: #ccc;
+        text-decoration: none;
+        &:hover {
+            color: white;
+        }
+    }
+    .right {
+        float: right;
+        position: relative;
+    }
+    .incart {
+        position: absolute;
+        top: 40px;
+        line-height: 100px;
+        width: 350px;
+        text-align: center;
+        right: 0;
+        background-color: red;
+        display: none;
+        
+
+    
+        
+    }
+    .shopcart {
+        width: 150px;
+        color: #ccc;
+        text-align: center;
+        margin-right: 0 !important;
+        background-color: rgba(255, 255, 255, .1);
+        &:hover {
+            color: orangered;
+            background-color: white;
+        }
+    }
+}

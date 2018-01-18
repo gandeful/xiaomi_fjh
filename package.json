@@ -1,0 +1,23 @@
+{
+  "name": "xiaomi_fjh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gandeful/xiaomi_fjh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gandeful/xiaomi_fjh/issues"
+  },
+  "homepage": "https://github.com/gandeful/xiaomi_fjh#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
